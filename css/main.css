@@ -1,0 +1,74 @@
+/* RESET 
+-----------------------------------------------------*/
+* { margin: 0; padding: 0; font-size: 1em; outline: none; }
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext { font: inherit; font-size: 1em; white-space: normal; }
+dfn, i, cite, var, address, em { font-style: normal; }
+th, b, strong, h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table { border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td, center { text-align: left; vertical-align: top; }
+body { line-height: 1; background: white; color: black; }
+q { quotes: "" ""; }
+ul, ol, dir, menu { list-style: none; }
+sub, sup { vertical-align: baseline; }
+a { color: inherit; }
+hr { display: none; } 
+font { color: inherit !important; font: inherit !important; color: inherit !important; } 
+marquee { overflow: inherit !important; -moz-binding: none; }
+blink { text-decoration: none; }
+nobr { white-space: normal; }
+
+/*
+-----------------------------------------------------*/
+/*body {
+	width: 100%;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 90%;
+}
+/*
+#logo {
+	float: left;
+	width: 80%;
+}
+
+li {
+	float: left;
+	width: 15%;
+}
+
+ul {
+	width: 100%;
+	list-style-type: none;
+}
+
+/* Navigation
+-----------------------------------------------------*/
+/*nav {
+	clear: both;
+}
+
+#main_image {
+	clear: both;
+	width: 100%;
+}
+
+/* Left Column Content
+-----------------------------------------------------*/
+/*#left_column {
+	float: left;
+	width: 70%;
+}
+
+/* Right Column Content
+-----------------------------------------------------*/
+/*#right_column {
+}
+
+/* Footer
+-----------------------------------------------------*/
+/*footer {
+	clear: both;
+}
