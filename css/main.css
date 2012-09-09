@@ -20,23 +20,41 @@ nobr { white-space: normal; }
 
 /*
 -----------------------------------------------------*/
-/*body {
-	width: 100%;
+body {
+	width: 960px;
 }
 
 #wrapper {
 	margin: 0 auto;
 	width: 90%;
 }
-/*
+
 #logo {
 	float: left;
 	width: 80%;
 }
 
+h1 {
+	font-size: 2em;
+	font-family: 'Oriya MN';
+}
+
+h2 {
+	font-size: 1.5em; font-family: 'Oriya MN';
+}
+
+h3 {
+	font-size: 1.25em; font-family: 'Oriya MN';
+}
+
+p {
+	font-family: 'Oriya Sangam MN';
+}
+
 li {
 	float: left;
 	width: 15%;
+	font-family: 'Oriya Sangam MN';
 }
 
 ul {
@@ -44,31 +62,43 @@ ul {
 	list-style-type: none;
 }
 
+/* Header
+-----------------------------------------------------*/
+header {
+	margin-bottom: 1em;
+}
+
+#search {
+	font-family: 'Oriya Sangam MN';
+}
+
 /* Navigation
 -----------------------------------------------------*/
-/*nav {
+nav {
 	clear: both;
+	margin-bottom: 1em;
 }
 
 #main_image {
 	clear: both;
-	width: 100%;
 }
 
 /* Left Column Content
 -----------------------------------------------------*/
-/*#left_column {
+#left_column {
 	float: left;
 	width: 70%;
+	padding-bottom: 1em;
 }
 
 /* Right Column Content
 -----------------------------------------------------*/
-/*#right_column {
+#right_column {
+	padding-bottom: 1em;
 }
 
 /* Footer
 -----------------------------------------------------*/
-/*footer {
+footer {
 	clear: both;
 }
