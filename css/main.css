@@ -1,3 +1,12 @@
+/* Colors
+
+Baige: #e0dace
+Blue-green: #16576b
+light-blue-green: #5792a0
+light blue for text: #cdd7de
+dark-grey for text: #545555
+-----------------------------------------------------*/
+
 /* RESET 
 -----------------------------------------------------*/
 * { margin: 0; padding: 0; text-decoration: none; font-size: 1em; outline: none; }
@@ -22,62 +31,103 @@ nobr { white-space: normal; }
 -----------------------------------------------------*/
 body {
 	width: 960px;
+	margin: 0 auto;
 }
 
 #wrapper {
 	margin: 0 auto;
 	width: 90%;
-}
-
-#logo {
-	float: left;
-	width: 80%;
+	background: #e0dace;
 }
 
 h1 {
-	font-size: 2em;
-	font-family: 'Oriya MN';
+	font-size: 2em; font-family: 'Oriya MN'; color: #cdd7de;
+	text-shadow: 2px 2px 2px #111;
 }
 
 h2 {
-	font-size: 1.5em; font-family: 'Oriya MN';
+	font-size: 1.5em; font-family: 'Oriya MN'; color: #545555;
+	padding-bottom: 0.5em;
 }
 
 h3 {
-	font-size: 1.25em; font-family: 'Oriya MN';
+	font-size: 1.25em; font-family: 'Oriya MN'; color: #545555;
+}
+
+h4 {
+	font-family: 'Oriya Sangam MN'; color: #545555;
 }
 
 p {
-	font-family: 'Oriya Sangam MN';
+	font-family: 'Oriya Sangam MN'; color: #545555;
 }
 
 li {
 	float: left;
-	width: 15%;
-	font-family: 'Oriya Sangam MN';
+	font-family: 'Oriya Sangam MN'; color: #cdd7de;
 }
 
 ul {
-	width: 100%;
 	list-style-type: none;
 }
 
 /* Header
 -----------------------------------------------------*/
 header {
-	margin-bottom: 1em;
+	background: #16576b;
+	padding: 1em;
 }
 
-#search {
-	font-family: 'Oriya Sangam MN';
+#logo {
+	float: left;
+	width: 72.5%;
+}
+
+#searchbox {
+	font-family: 'Oriya Sangam MN'; color: #cdd7de;
+}
+
+#search label {
+	float: left;
+	padding: 0.5em;
 }
 
 /* Navigation
 -----------------------------------------------------*/
 nav {
 	clear: both;
-	margin-bottom: 1em;
+	background: #5792a0;
 }
+
+nav ul {
+	width: 864px;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline-block;
+	width: 16.66666666667%;
+}
+
+nav a {
+	background: #5792a0;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+}
+
+nav a:hover {
+	color: #545555;
+	background: #cdd7de;
+}
+
+nav a:active {
+	color: #545555;
+	background: #fff;
+}
+
+/* Main Image
+-----------------------------------------------------*/
 
 #main_image {
 	clear: both;
@@ -87,18 +137,49 @@ nav {
 -----------------------------------------------------*/
 #left_column {
 	float: left;
-	width: 70%;
-	padding-bottom: 1em;
+	width: 580px;
+	padding: 1em;
+}
+
+#left_column img {
+	float: left;
+	padding-right: 0.5em;	
+}
+
+#news2, #news3 {
+	clear: both;
+	padding: 1em 0;
 }
 
 /* Right Column Content
 -----------------------------------------------------*/
 #right_column {
-	padding-bottom: 1em;
+	padding: 1em;
 }
 
 /* Footer
 -----------------------------------------------------*/
 footer {
 	clear: both;
+	background: #5792a0;
+	padding: 1em;
 }
+
+footer li {
+	width: 12%;
+}
+
+footer p {
+	color: #cdd7de;
+	clear: both;
+	padding-top: 0.5em;
+}
+
+footer a:hover {
+	color: #545555;
+}
+
+footer a:active {
+	color: #16576b;
+}
+

@@ -1,3 +1,49 @@
 #form_image {
 	float: left;
+	padding-right: 1em;
+}
+
+/* Contact Info
+-----------------------------------*/
+
+#contact_info {
+	height: 295px;
+	margin-top: 1em;
+}
+
+#contact_info h2 {
+	padding-top: 1em;
+}
+
+/* Email Form
+-----------------------------------*/
+
+#email_form {
+	clear: both;
+	float: left;
+	width: 563px;
+	padding-left: 1em;
+	margin-bottom: 1em;
+	margin-right: 1em;
+	margin-top: 0.5em;
+	border-right: 1px solid;
+}
+
+#email_form label {
+	padding: 0.5em 0;
+}
+
+#email_form input {
+	width: 350px;
+}
+
+#message {
+	height: 100px;
+}
+
+/* Sign Up Form
+-----------------------------------*/
+
+#signup_form {
+	margin-left: 1em;
 }
