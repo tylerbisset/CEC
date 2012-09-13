@@ -74,7 +74,8 @@ ul {
 /* Header
 -----------------------------------------------------*/
 header {
-	background: #16576b;
+	background-image: url('../images/rusttexture.png');
+	background-repeat: repeat-x;
 	padding: 1em;
 }
 
@@ -100,7 +101,7 @@ nav {
 }
 
 nav ul {
-	width: 864px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -157,29 +158,40 @@ nav a:active {
 	padding: 1em;
 }
 
+#right_column h2 {
+	padding-top: 0.4em;
+}
+
 /* Footer
 -----------------------------------------------------*/
 footer {
 	clear: both;
-	background: #5792a0;
+	background: #16576b;
 	padding: 1em;
 }
 
+footer ul {
+	width: 100%;
+	margin: 0 auto;
+}
+
 footer li {
-	width: 12%;
+	width: 16.666666667%;
+	text-align: center;
 }
 
 footer p {
 	color: #cdd7de;
 	clear: both;
 	padding-top: 0.5em;
+	text-align: center;
 }
 
 footer a:hover {
-	color: #545555;
+	color: #5792a0;
 }
 
 footer a:active {
-	color: #16576b;
+	color: #e0dace;
 }
 

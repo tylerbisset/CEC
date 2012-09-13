@@ -3,6 +3,10 @@
 	padding-right: 1em;
 }
 
+input {
+	margin-bottom: 0.4em;
+}
+
 /* Contact Info
 -----------------------------------*/
 
@@ -26,7 +30,7 @@
 	margin-bottom: 1em;
 	margin-right: 1em;
 	margin-top: 0.5em;
-	border-right: 1px solid;
+	border-right: 1px solid #545555;
 }
 
 #email_form label {
@@ -46,4 +50,5 @@
 
 #signup_form {
 	margin-left: 1em;
+	margin-top: 0.5em;
 }
