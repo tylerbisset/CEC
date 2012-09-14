@@ -59,18 +59,32 @@ input {
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 960px) {
 	
-	#contact_info {
-		padding-top: 1em;
+	#email_form {
+		border: none;
+		width: 100%;
 	}
-
+	
+	#email_form input {
+		width: 80%;
+	}
+	
+	#signup_form {
+		clear: both;
+	}
+	
+	#signup_form input {
+		width: 82%;
+	}
 }
 
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	
 	#form_image {
 		width: 52%;
 	}
+	
 	#email_form {
 		border: none;
 		width: 100%;

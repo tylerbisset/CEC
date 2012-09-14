@@ -1,4 +1,9 @@
-	h2, h3{
+	h2 {
+		padding-top: 0.5em;
+		margin: 0 0.3em;
+	}
+	
+	h3{
 		margin: 0 0.5em;
 	}
 
@@ -55,7 +60,7 @@
 
 	@media only screen and (min-width: 40em) and (min-height: 20em) {
 
-		.calendar td { height: 2.5em;/*30*/ }
+		.calendar td { height: 6.5em;/*30*/ }
 
 	}
 	@media only screen and (min-width: 40em) and (min-height: 40em) {
