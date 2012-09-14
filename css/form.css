@@ -1,6 +1,11 @@
 #form_image {
 	float: left;
+	width: 62.416666666667%;
 	padding-right: 1em;
+}
+
+#form_image img {
+	max-width: 100%;
 }
 
 input {
@@ -11,12 +16,9 @@ input {
 -----------------------------------*/
 
 #contact_info {
-	height: 295px;
 	margin-top: 1em;
-}
-
-#contact_info h2 {
-	padding-top: 1em;
+	margin-left: 1em;
+	height: 260px;
 }
 
 /* Email Form
@@ -25,11 +27,10 @@ input {
 #email_form {
 	clear: both;
 	float: left;
-	width: 563px;
+	width: 60.416666666667%;
 	padding-left: 1em;
 	margin-bottom: 1em;
 	margin-right: 1em;
-	margin-top: 0.5em;
 	border-right: 1px solid #545555;
 }
 
@@ -38,7 +39,7 @@ input {
 }
 
 #email_form input {
-	width: 350px;
+	width: 70%;
 }
 
 #message {
@@ -50,5 +51,71 @@ input {
 
 #signup_form {
 	margin-left: 1em;
-	margin-top: 0.5em;
+}
+
+/* Media Queries
+=====================================================*/
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+	
+	#contact_info {
+		padding-top: 1em;
+	}
+
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#form_image {
+		width: 52%;
+	}
+	#email_form {
+		border: none;
+		width: 100%;
+	}
+	
+	#email_form input {
+		width: 80%;
+	}
+	
+	#signup_form {
+		clear: both;
+	}
+	
+	#signup_form input {
+		width: 82%;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	
+	#form_image {
+		display: none;
+		float: none;
+	}
+	
+	#contact_info {
+		margin-top: 1em;
+		height: 200px;
+	}
+	
+	#email_form {
+		border: none;
+		width: 100%;
+	}
+	
+	#email_form input {
+		width: 80%;
+	}
+	
+	#signup_form {
+		clear: both;
+	}
+	
+	#signup_form input {
+		width: 82%;
+	}
 }
