@@ -7,7 +7,7 @@
 		margin: 0 0.5em;
 	}
 
-	.calendar { width: 100%; font-size: 0.75em;/*12*/ line-height: 1.25em;/*15*/ border-collapse: collapse; border-spacing: 0; }
+	.calendar { width: 95%; font-size: 0.75em;/*12*/ line-height: 1.25em;/*15*/ border-collapse: collapse; border-spacing: 0; margin: 0 auto; }
 
 	.calendar th { text-align: left; }
 	.calendar th span { display: none; }
@@ -45,7 +45,7 @@
 		.calendar .prev-month .day,
 		.calendar .next-month .day { color: #bbb; }
 
-		.calendar td .day { display: block; float: right; margin: 0; font-weight: normal; }
+		.calendar td .day { display: block; float: right; margin: 0; font-weight: normal; height: 6.5em; }
 		.calendar td .day:before { display: none; }
 		.calendar td .suffix { display: none; }
 
@@ -55,7 +55,6 @@
 	
 		/* show full days (e.g. "Mon" to "Monday") */
 		.calendar th span { display: inline; }
-
 	}
 
 	@media only screen and (min-width: 40em) and (min-height: 20em) {
