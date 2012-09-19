@@ -138,6 +138,8 @@ nav a:hover {
 nav a:active {
 	color: #545555;
 	background: #fff;
+	position: relative;
+	top: 2px;
 }
 
 nav a#pull {  
@@ -329,7 +331,7 @@ input {
 
 .button_blue:active {
 	position: relative;
-	top: 1px;
+	top: 2px;
 	color: #545555;
 	background: #fff;
 	text-shadow: none;
