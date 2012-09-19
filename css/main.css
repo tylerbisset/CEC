@@ -63,7 +63,6 @@ p {
 }
 
 li {
-	float: left;
 	font-family: "Oriya Sangam MN", "Trebuchet MS", Helvetica, sans-serif; color: #cdd7de;
 }
 
@@ -107,6 +106,7 @@ nav ul {
 }
 
 nav li {
+	float: left;
 	display: inline;
 	width: 16.66666666667%;
 }
@@ -237,6 +237,12 @@ nav a#pull {
 .calendar .prev-month,
 .calendar .next-month { display: none; }
 
+/* Visit Us
+-----------------------------------*/
+#right_column li {
+	color: #545555;
+}
+
 /* Form
 -----------------------------------*/
 
@@ -309,6 +315,7 @@ footer ul {
 }
 
 footer li {
+	float: left;
 	width: 16.666666667%;
 	text-align: center;
 }
