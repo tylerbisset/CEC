@@ -3,15 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<title>Christ Episcopal Church | Contact Us</title>
+		<title>Christ Episcopal Church  |  Contact Us</title>
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/form.css">
+		<!--[if lt IE 9]>
+		<script src="dist/html5shiv.js"></script>
+		<![endif]-->
 	</head>
 	
-	<body>
+	<body id="contact">
 		<div id="wrapper">
 		<header>
-			<h1 id="logo">Christ Episcopal Church</h1>
+			<a href="index.html"><h1 id="logo">Christ Episcopal Church</h1></a>
 			<div id="searchbox">
 			<form method="get" action="post">				
 				<label for="search">Search</label>
@@ -20,15 +22,15 @@
 			</div><!--Search-->
 		</header>
 		
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="calendar.html">Calendar</a></li>
-				<li><a href="community.html">Community</a></li>
-				<li><a href="visit.html">Visit Us</a></li>
-				<li><a href="form.html">Contact Us</a></li>
-			</ul>
+		<nav class="clearfix">
+			<ul class="clearfix">
+				<li><a href="index.html" id="home_nav">Home</a></li>
+				<li><a href="about.html" id="about_nav">About Us</a></li>
+				<li><a href="calendar.html" id="calendar_nav">Calendar</a></li>
+				<li><a href="community.html" id="community_nav">Community</a></li>
+				<li><a href="visit.html" id="visit_nav">Visit Us</a></li>
+				<li><a href="form.html" id="form_nav">Contact Us</a></li>
+			</ul>			
 		</nav>
 		
 		<div id="form_image">

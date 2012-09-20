@@ -60,6 +60,7 @@ h4 {
 
 p {
 	font-family: "Oriya Sangam MN", "Trebuchet MS", Helvetica, sans-serif; color: #545555;
+	line-height: 1.25em;
 }
 
 li {
@@ -101,21 +102,17 @@ nav {
 }
 
 nav ul {
-	width: 90%;
+	width: 93.75%;
 	margin: 0 auto;
 }
 
 nav li {
 	float: left;
-	display: inline;
-	width: 16.66666666667%;
+	width: 15.625%;
 }
 
 nav li a {  
-    border-right: 1px solid #576979;  
-    box-sizing:border-box;  
-    -moz-box-sizing:border-box;  
-    -webkit-box-sizing:border-box; 
+    border-right: 1px solid #576979;   
 }
 
 nav li:last-child a {  
@@ -127,7 +124,7 @@ nav a {
 	display: inline-block;
 	text-align: center;
 	line-height: 30px;
-	width: 160px;
+	width: 125px;
 }
 
 nav a:hover {
@@ -140,13 +137,13 @@ nav a:active {
 	background: #fff;
 	position: relative;
 	top: 2px;
-}
+} 
 
-nav a#pull {  
-    display: none;  
-}     
+body#home a#home_nav, body#about a#about_nav, body#calendar_page a#calendar_nav, body#community a#community_nav, body#visit a#visit_nav, body#contact a#form_nav {
+	background: #45717c;
+} 
 
-.clearfix:before, .clearfix:after {  
+/*.clearfix:before, .clearfix:after {  
     content: " ";  
     display: table;  
 }
@@ -157,7 +154,7 @@ nav a#pull {
 
 .clearfix {  
     *zoom: 1;  
-}  
+}  */
 
 /* Main Image
 -----------------------------------------------------*/
@@ -202,6 +199,7 @@ nav a#pull {
 	color: #545555;
 	list-style-type: decimal;
 	padding-bottom: 0.5em;
+	line-height: 1.25em;
 }
 
 /* Calendar
