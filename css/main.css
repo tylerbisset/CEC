@@ -185,6 +185,22 @@ body#home a#home_nav, body#about a#about_nav, body#calendar_page a#calendar_nav,
 	padding: 1em 0;
 }
 
+#left_column p {
+	margin-bottom: 0.5em;
+}
+
+#left_column a, #right_column a {
+	color: #16576b;
+}
+
+#left_column a:hover, #right_column a:hover {
+	color: #5792a0;
+}
+
+#left_column a:active, #right_column a:active {
+	color: #fff;
+}
+
 /* Right Column Content
 -----------------------------------------------------*/
 #right_column {
@@ -200,6 +216,10 @@ body#home a#home_nav, body#about a#about_nav, body#calendar_page a#calendar_nav,
 	list-style-type: decimal;
 	padding-bottom: 0.5em;
 	line-height: 1.25em;
+}
+
+#right_column p {
+	margin-bottom: 0.5em;
 }
 
 /* Calendar
@@ -290,8 +310,11 @@ input {
 	width: 70%;
 }
 
-#message {
+textarea {
 	height: 100px;
+	width: 71%;
+	margin-bottom: 0.5em;
+	font-family: "Oriya Sangam MN", "Trebuchet MS", Helvetica, sans-serif;
 }
 
 /* Sign Up Form
@@ -420,6 +443,10 @@ footer a:active {
 		width: 80%;
 	}
 	
+	textarea {
+		width: 80%;
+	}
+	
 	#signup_form {
 		clear: both;
 	}
@@ -485,6 +512,10 @@ footer a:active {
 	}
 	
 	#email_form input {
+		width: 80%;
+	}
+	
+	textarea {
 		width: 80%;
 	}
 	
@@ -558,6 +589,7 @@ footer a:active {
 	
 	#contact_info {
 		margin-top: 1em;
+		margin-bottom: 1.5em;
 		height: 200px;
 	}
 	
@@ -570,8 +602,13 @@ footer a:active {
 		width: 80%;
 	}
 	
+	textarea {
+		width: 80%;
+	}
+	
 	#signup_form {
 		clear: both;
+		margin-bottom: 1em;
 	}
 	
 	#signup_form input {
